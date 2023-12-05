@@ -1,4 +1,4 @@
-defmodule Hubbe.MixProject do
+defmodule Hubble.MixProject do
   use Mix.Project
 
   def project do
@@ -22,7 +22,6 @@ defmodule Hubbe.MixProject do
   defp deps do
     [
       {:nostrum, github: "Kraigie/nostrum"},
-      {:envar, "~> 1.1.0"},
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false}
     ]
   end
